@@ -28,6 +28,7 @@ header{
     grid-area: header;
     padding-top: 0;
     padding-bottom: 0;
+    background-color: rgba(97, 122, 96, 0.707);
 }
 
 header nav{
@@ -243,6 +244,11 @@ footer h4{
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
+    }
+
+    #produkt{
+        display: flex;
+        align-items: center;
     }
 
     main section article figure figcaption p{
